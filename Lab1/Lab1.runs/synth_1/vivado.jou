@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Sep 16 16:50:10 2016
+# Process ID: 10418
+# Log file: /home/stargrif/Viviado/lab_workspace/APVMIS/Lab1/Lab1.runs/synth_1/TestBench.vds
+# Journal file: /home/stargrif/Viviado/lab_workspace/APVMIS/Lab1/Lab1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source TestBench.tcl -notrace
