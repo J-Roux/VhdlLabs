@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Sep 21 15:25:25 2016
+# Process ID: 5061
+# Log file: /home/pavel/workspace/Lab2/Lab2.runs/synth_1/D_trigger_benchmark.vds
+# Journal file: /home/pavel/workspace/Lab2/Lab2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source D_trigger_benchmark.tcl -notrace
+Command: synth_design -top D_trigger_benchmark -part xc7a200tfbg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 919.555 ; gain = 139.520 ; free physical = 363 ; free virtual = 3197
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-2551] possible infinite loop; process does not have a wait statement [/home/pavel/workspace/Lab2/Lab2.srcs/sources_1/new/D_trigger.vhd:47]
+ERROR: [Synth 8-1031] value is not declared [/home/pavel/workspace/Lab2/Lab2.srcs/sources_1/new/D_trigger.vhd:58]
+ERROR: [Synth 8-1031] value is not declared [/home/pavel/workspace/Lab2/Lab2.srcs/sources_1/new/D_trigger.vhd:59]
+INFO: [Synth 8-2810] unit behavioral ignored due to previous errors [/home/pavel/workspace/Lab2/Lab2.srcs/sources_1/new/D_trigger.vhd:45]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 954.836 ; gain = 174.801 ; free physical = 320 ; free virtual = 3154
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+3 Infos, 1 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 21 15:25:39 2016...
