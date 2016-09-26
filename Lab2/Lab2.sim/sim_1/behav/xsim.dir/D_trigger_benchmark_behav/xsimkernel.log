@@ -1,4 +1,0 @@
-Running: xsim.dir/D_trigger_benchmark_behav/xsimk -simmode gui -wdb D_trigger_benchmark_behav.wdb -simrunnum 0 -socket 35756
-Design successfully loaded
-Design Loading Memory Usage: 91560 KB (Peak: 91576 KB)
-Design Loading CPU Usage: 40 ms

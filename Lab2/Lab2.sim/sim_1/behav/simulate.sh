@@ -9,4 +9,4 @@ then
 exit $RETVAL
 fi
 }
-ExecStep $xv_path/bin/xsim D_trigger_benchmark_behav -key {Behavioral:sim_1:Functional:D_trigger_benchmark} -tclbatch D_trigger_benchmark.tcl -log simulate.log
+ExecStep $xv_path/bin/xsim TestbenchSyncCountUD_behav -key {Behavioral:sim_1:Functional:TestbenchSyncCountUD} -tclbatch TestbenchSyncCountUD.tcl -view /home/pavel/Vhdl/VhdlLabs/Lab2/D_trigger_benchmark_behav.wcfg -log simulate.log

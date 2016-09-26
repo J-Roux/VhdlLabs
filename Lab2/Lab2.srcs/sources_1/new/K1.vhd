@@ -14,7 +14,7 @@ entity K1 is
       	S0 : in std_logic;
       	Q : out std_logic;
       	IQ : out std_logic;
-      	L1 : out std_logic
+      	L : out std_logic
       );
 end K1;
 
@@ -37,14 +37,14 @@ begin
  	D <= ((S0 and Q_t) xor CTR) or (S0S1 and DATA);
 	Q <= Q_t;
 	IQ <= IQ_t;
-	L1 <= not (S1 and IQ_t) or (IS1 and Q_t); 
-D : D_trigger port map (
+	L <= not (S1 and IQ_t) or (IS1 and Q_t); 
+DEV : D_trigger port map (
 		clk => clk,
-		RESET => R,
-		Q_t => Q,
+		R => RESET,
+		Q => Q_t,
 		D => D,
-		SET => S,
-		IQ_t => IQ
+		S => SET,
+		IQ => IQ_t
 	);  
 
     

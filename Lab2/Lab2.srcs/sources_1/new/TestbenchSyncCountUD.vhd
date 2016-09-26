@@ -52,16 +52,16 @@ begin
 			ENP => ENP,
 			ENT => ENT,
 			RCO => RCO,
-			IN_DATA(0) => A, IN_DATA(1) => B, IN_DATA(2) => C, IN_DATA(3) => D,
-			IN_DATA(4) => E, IN_DATA(5) => F, IN_DATA(6) => G, IN_DATA(7) => H,
-			OUT_DATA(0) => QA,
-			OUT_DATA(1) => QB,
-			OUT_DATA(2) => QC,
-			OUT_DATA(3) => QD,
-			OUT_DATA(4) => QE,
-			OUT_DATA(5) => QF,
-			OUT_DATA(6) => QG,
-			OUT_DATA(7) => QH
+			A => IN_DATA(0), B => IN_DATA(1), C => IN_DATA(2), D => IN_DATA(3),
+			E => IN_DATA(4), F => IN_DATA(5), G => IN_DATA(6), H => IN_DATA(7),
+			QA => OUT_DATA(0),
+			QB => OUT_DATA(1),
+			QC => OUT_DATA(2),
+			QD => OUT_DATA(3),
+			QE => OUT_DATA(4),
+			QF => OUT_DATA(5),
+			QG => OUT_DATA(6),
+			QH => OUT_DATA(7)
 		);
 
 	process

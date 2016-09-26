@@ -146,14 +146,14 @@ D1 : K1 port map (
         IS1 => IS1,
         S1 => S1,
         Reset => RESET,
-        invert_clk => clk,
+        clk => invert_clk,
         S0S1 => S0S1,
-        A => DATA,
+        DATA => A,
         CTR => CTR,
         S0 => S0,
-        Q1 => Q,
-        IQ1 => IQ,
-        L1 => L
+        Q => Q1,
+        IQ => IQ1,
+        L => L1
     );
 QA <= IQ1;
 
@@ -164,14 +164,14 @@ D2 : K1 port map (
         IS1 => IS1,
         S1 => S1,
         Reset => RESET,
-        invert_clk => clk,
+        clk => invert_clk,
         S0S1 => S0S1,
-        B => DATA,
-        CTR2 => CTR,
+        DATA => B,
+        CTR => CTR2,
         S0 => S0,
-        Q2 => Q,
-        IQ2 => IQ,
-        L2 => L
+        Q => Q2,
+        IQ => IQ2,
+        L => L2
     );
 QB <= IQ2;
 
@@ -182,14 +182,14 @@ D3 : K1 port map (
         IS1 => IS1,
         S1 => S1,
         Reset => RESET,
-        invert_clk => clk,
+        clk => invert_clk,
         S0S1 => S0S1,
-        C => DATA,
-        CTR3 => CTR,
+        DATA => C,
+        CTR => CTR3,
         S0 => S0,
-        Q3 => Q,
-        IQ3 => IQ,
-        L3 => L
+        Q => Q3,
+        IQ => IQ3,
+        L => L3
     );
 QC <= IQ3;
 
@@ -199,34 +199,16 @@ D4 : K1 port map (
         IS1 => IS1,
         S1 => S1,
         Reset => RESET,
-        invert_clk => clk,
+        clk => invert_clk,
         S0S1 => S0S1,
-        D => DATA,
-        CTR4 => CTR,
+        DATA => D,
+        CTR => CTR4,
         S0 => S0,
-        Q4 => Q,
-        IQ4 => IQ,
-        L4 => L
+        Q => Q4,
+        IQ => IQ4,
+        L => L4
     );
 QD <= IQ4;
-
--- device 4
-CTR4 <= L1 and L2 and L3 and CTR;
-D4 : K1 port map (
-        IS1 => IS1,
-        S1 => S1,
-        Reset => RESET,
-        invert_clk => clk,
-        S0S1 => S0S1,
-        D => DATA,
-        CTR4 => CTR,
-        S0 => S0,
-        Q4 => Q,
-        IQ4 => IQ,
-        L4 => L
-    );
-QD <= IQ4;
-
 
 -- device 5
 CTR5 <= L1 and L2 and L3 and L4 and CTR;
@@ -234,14 +216,14 @@ D5 : K1 port map (
         IS1 => IS1,
         S1 => S1,
         Reset => RESET,
-        invert_clk => clk,
+        clk => invert_clk,
         S0S1 => S0S1,
-        E => DATA,
-        CTR5 => CTR,
+        DATA => E,
+        CTR => CTR5,
         S0 => S0,
-        Q5 => Q,
-        IQ5 => IQ,
-        L5 => L
+        Q => Q5,
+        IQ => IQ5,
+        L => L5
     );
 QE <= IQ5;
 
@@ -251,14 +233,14 @@ D6 : K1 port map (
         IS1 => IS1,
         S1 => S1,
         Reset => RESET,
-        invert_clk => clk,
+        clk => invert_clk,
         S0S1 => S0S1,
-        F => DATA,
-        CTR6 => CTR,
+        DATA => F,
+        CTR => CTR6,
         S0 => S0,
-        Q6 => Q,
-        IQ6 => IQ,
-        L6 => L
+        Q => Q6,
+        IQ => IQ6,
+        L => L6
     );
 QF <= IQ6;
 
@@ -269,14 +251,14 @@ D7 : K1 port map (
         IS1 => IS1,
         S1 => S1,
         Reset => RESET,
-        invert_clk => clk,
+        clk => invert_clk,
         S0S1 => S0S1,
-        G => DATA,
-        CTR7 => CTR,
+        DATA => G,
+        CTR => CTR7,
         S0 => S0,
-        Q7 => Q,
-        IQ7 => IQ,
-        L7 => L
+        Q => Q7,
+        IQ => IQ7,
+        L => L7
     );
 QG <= IQ7;
 
@@ -286,14 +268,14 @@ D8 : K1 port map (
         IS1 => IS1,
         S1 => S1,
         Reset => RESET,
-        invert_clk => clk,
+        clk => invert_clk,
         S0S1 => S0S1,
-        H => DATA,
-        CTR8 => CTR,
+        DATA => H,
+        CTR => CTR8,
         S0 => S0,
-        Q8 => Q,
-        IQ8 => IQ,
-        L8 => L
+        Q => Q8,
+        IQ => IQ8,
+        L => L8
     );
 QH <= IQ8;
 
