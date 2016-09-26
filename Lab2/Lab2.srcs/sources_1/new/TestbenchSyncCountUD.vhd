@@ -72,7 +72,7 @@ begin
 		S0 <= '0';
 		IN_DATA <= "00001000";
 		wait for delay;
-		clk <= '1'
+		clk <= '1';
 		wait for delay;
 
 	-- count up
@@ -96,7 +96,7 @@ begin
 		end loop;
 
 	-- clear
-		clk <= '0'
+		clk <= '0';
 		S0 <= '0';
 		S1 <= '0';
 		wait for delay;
