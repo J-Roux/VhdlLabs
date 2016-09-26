@@ -37,7 +37,7 @@ begin
  	D <= ((S0 and Q_t) xor CTR) or (S0S1 and DATA);
 	Q <= Q_t;
 	IQ <= IQ_t;
-	L <= not (S1 and IQ_t) or (IS1 and Q_t); 
+	L <= not ((S1 and IQ_t) or (IS1 and Q_t)); 
 DEV : D_trigger port map (
 		clk => clk,
 		R => RESET,

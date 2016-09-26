@@ -133,12 +133,12 @@ architecture Behavioral of SyncCountUD is
 begin
 
 -- common
-    invert_clk <= not clk;
-    CTR <= (not S1) and (not ENP) and (not ENT);
+    invert_clk <= clk;
+    CTR <= (not S0) and (not ENP) and (not ENT);
     S0S1 <= S0 and S1;
     IS1 <= not S1;
-    Reset <=  not ((not S0 and not S1) and not S1 and not S0);
-    invert_clk <= not clk;
+    Reset <=  not ((not S0 and not S1) and ((not S1) and (not S0)));
+   
 
 
 -- device 1 
@@ -155,7 +155,7 @@ D1 : K1 port map (
         IQ => IQ1,
         L => L1
     );
-QA <= IQ1;
+QA <= not IQ1;
 
 
 -- device 2
@@ -173,7 +173,7 @@ D2 : K1 port map (
         IQ => IQ2,
         L => L2
     );
-QB <= IQ2;
+QB <= not IQ2;
 
 
 -- device 3
@@ -191,7 +191,7 @@ D3 : K1 port map (
         IQ => IQ3,
         L => L3
     );
-QC <= IQ3;
+QC <= not IQ3;
 
 -- device 4
 CTR4 <= L1 and L2 and L3 and CTR;
@@ -208,7 +208,7 @@ D4 : K1 port map (
         IQ => IQ4,
         L => L4
     );
-QD <= IQ4;
+QD <=  not IQ4;
 
 -- device 5
 CTR5 <= L1 and L2 and L3 and L4 and CTR;
@@ -225,7 +225,7 @@ D5 : K1 port map (
         IQ => IQ5,
         L => L5
     );
-QE <= IQ5;
+QE <= not  IQ5;
 
 -- device 6
 CTR6 <= L1 and L2 and L3 and L4 and L5 and CTR;
@@ -242,7 +242,7 @@ D6 : K1 port map (
         IQ => IQ6,
         L => L6
     );
-QF <= IQ6;
+QF <= not IQ6;
 
 
 -- device 7
@@ -260,7 +260,7 @@ D7 : K1 port map (
         IQ => IQ7,
         L => L7
     );
-QG <= IQ7;
+QG <= not  IQ7;
 
 -- device 8
 CTR8 <= L1 and L2 and L3 and L4 and L5 and L6 and L7 and CTR;
@@ -277,7 +277,7 @@ D8 : K1 port map (
         IQ => IQ8,
         L => L8
     );
-QH <= IQ8;
+QH <= not  IQ8;
 
 
 
