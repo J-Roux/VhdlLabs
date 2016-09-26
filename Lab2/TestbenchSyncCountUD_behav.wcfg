@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TestbenchSyncCountUD_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TestbenchSyncCountUD" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="9" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestbenchSyncCountUD/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestbenchSyncCountUD/S0">
+      <obj_property name="ElementShortName">S0</obj_property>
+      <obj_property name="ObjectShortName">S0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestbenchSyncCountUD/S1">
+      <obj_property name="ElementShortName">S1</obj_property>
+      <obj_property name="ObjectShortName">S1</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestbenchSyncCountUD/ENP">
+      <obj_property name="ElementShortName">ENP</obj_property>
+      <obj_property name="ObjectShortName">ENP</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestbenchSyncCountUD/ENT">
+      <obj_property name="ElementShortName">ENT</obj_property>
+      <obj_property name="ObjectShortName">ENT</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/TestbenchSyncCountUD/IN_DATA">
+      <obj_property name="ElementShortName">IN_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_DATA[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/TestbenchSyncCountUD/OUT_DATA">
+      <obj_property name="ElementShortName">OUT_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_DATA[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestbenchSyncCountUD/RCO">
+      <obj_property name="ElementShortName">RCO</obj_property>
+      <obj_property name="ObjectShortName">RCO</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="other" fp_name="/TestbenchSyncCountUD/delay">
+      <obj_property name="ElementShortName">delay</obj_property>
+      <obj_property name="ObjectShortName">delay</obj_property>
+   </wvobject>
+</wave_config>
