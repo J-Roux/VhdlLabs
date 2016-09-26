@@ -2,14 +2,14 @@
 # Webtalk v2015.2 (64-bit)
 # SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
 # IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
-# Start of session at: Mon Sep 26 15:16:07 2016
-# Process ID: 7611
+# Start of session at: Mon Sep 26 14:12:04 2016
+# Process ID: 28749
 # Log file: /home/pavel/Vhdl/VhdlLabs/Lab2/Lab2.sim/sim_1/behav/webtalk.log
 # Journal file: /home/pavel/Vhdl/VhdlLabs/Lab2/Lab2.sim/sim_1/behav/webtalk.jou
 #-----------------------------------------------------------
 source /home/pavel/Vhdl/VhdlLabs/Lab2/Lab2.sim/sim_1/behav/xsim.dir/TestbenchSyncCountUD_behav/webtalk/xsim_webtalk.tcl -notrace
 
     while executing
-"webtalk_transmit -clientid 2648911881 -regid "211231913_0_0_909" -xml /home/pavel/Vhdl/VhdlLabs/Lab2/Lab2.sim/sim_1/behav/xsim.dir/TestbenchSyncCountU..."
-    (file "/home/pavel/Vhdl/VhdlLabs/Lab2/Lab2.sim/sim_1/behav/xsim.dir/TestbenchSyncCountUD_behav/webtalk/xsim_webtalk.tcl" line 31)
-INFO: [Common 17-206] Exiting Webtalk at Mon Sep 26 15:16:08 2016...
+"webtalk_transmit -clientid 286312516 -regid "211231913_0_0_909" -xml /home/pavel/Vhdl/VhdlLabs/Lab2/Lab2.sim/sim_1/behav/xsim.dir/TestbenchSyncCountUD..."
+    (file "/home/pavel/Vhdl/VhdlLabs/Lab2/Lab2.sim/sim_1/behav/xsim.dir/TestbenchSyncCountUD_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Mon Sep 26 14:12:07 2016...
