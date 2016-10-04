@@ -1,0 +1,39 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2015.2/bin/unwrapped/lnx64.o/xelab -wto 9d34628816bb43bd95260c848617652f --debug typical --relax --mt 8 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot TestbenchSyncCountUD_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 xil_defaultlib.TestbenchSyncCountUD xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "TestbenchSyncCountUD_time_synth.sdf", for root module "TestbenchSyncCountUD/Dev".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "TestbenchSyncCountUD_time_synth.sdf", for root module "TestbenchSyncCountUD/Dev".
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module simprims_ver.latchsre_ldce
+Compiling module simprims_ver.LDCE
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.ffsrce_fdpe
+Compiling module simprims_ver.FDPE
+Compiling module xil_defaultlib.DTrigger
+Compiling module simprims_ver.LUT5
+Compiling module xil_defaultlib.DTrigger_0
+Compiling module simprims_ver.x_lut3_mux4
+Compiling module simprims_ver.LUT3
+Compiling module xil_defaultlib.DTrigger_1
+Compiling module xil_defaultlib.DTrigger_2
+Compiling module xil_defaultlib.DTrigger_3
+Compiling module xil_defaultlib.DTrigger_4
+Compiling module xil_defaultlib.DTrigger_5
+Compiling module xil_defaultlib.DTrigger_6
+Compiling module xil_defaultlib.SyncCountUD
+Compiling architecture behavioral of entity xil_defaultlib.testbenchsynccountud
+Built simulation snapshot TestbenchSyncCountUD_time_synth

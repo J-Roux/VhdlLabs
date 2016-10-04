@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/stargrif/VhdlLabs/Lab2/Lab2.sim/sim_2/synth/timing/TestbenchSyncCountUD_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DTrigger
+INFO: [VRFC 10-311] analyzing module DTrigger_0
+INFO: [VRFC 10-311] analyzing module DTrigger_1
+INFO: [VRFC 10-311] analyzing module DTrigger_2
+INFO: [VRFC 10-311] analyzing module DTrigger_3
+INFO: [VRFC 10-311] analyzing module DTrigger_4
+INFO: [VRFC 10-311] analyzing module DTrigger_5
+INFO: [VRFC 10-311] analyzing module DTrigger_6
+INFO: [VRFC 10-311] analyzing module SyncCountUD
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/stargrif/VhdlLabs/Lab2/Lab2.sim/sim_2/synth/timing/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [/home/stargrif/VhdlLabs/Lab2/Lab2.sim/sim_2/synth/timing/glbl.v:6]

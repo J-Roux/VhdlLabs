@@ -1,5 +1,5 @@
 #!/bin/sh -f
-xv_path="/home/pavel/apps/Vivado/Vivado/2015.2"
+xv_path="/opt/Xilinx/Vivado/2015.2"
 ExecStep()
 {
 "$@"
@@ -9,4 +9,4 @@ then
 exit $RETVAL
 fi
 }
-ExecStep $xv_path/bin/xsim TestbenchSyncCountUD_behav -key {Behavioral:sim_2:Functional:TestbenchSyncCountUD} -tclbatch TestbenchSyncCountUD.tcl -view /home/pavel/Vhdl/VhdlLabs/Lab2/TestbenchSyncCountUD_behav.wcfg -log simulate.log
+ExecStep $xv_path/bin/xsim TestbenchSyncCountUD_behav -key {Behavioral:sim_2:Functional:TestbenchSyncCountUD} -tclbatch TestbenchSyncCountUD.tcl -view /home/stargrif/VhdlLabs/Lab2/TestbenchSyncCountUD_behav.wcfg -log simulate.log
