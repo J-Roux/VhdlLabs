@@ -142,11 +142,9 @@ begin
        X(0) <= input(0);
        X(1) <= input(1);
        X(2) <= input(2);
-       if not( Y = Y_P) then
-       assert false
+       assert Y = Y_P
         report "Test fail!  " & integer'image(to_integer(unsigned(Y))) & "  " 
         & integer'image(to_integer(unsigned(Y_P)));
-       end if;
        wait for 1ns;
     end loop;
     wait;

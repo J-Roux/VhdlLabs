@@ -6,3 +6,5 @@ INFO: [VRFC 10-163] Analyzing VHDL file "/home/pavel/Vhdl/VhdlLabs/Lab1/Lab1.src
 INFO: [VRFC 10-307] analyzing entity SN74_P
 INFO: [VRFC 10-163] Analyzing VHDL file "/home/pavel/Vhdl/VhdlLabs/Lab1/Lab1.srcs/sources_1/new/TestBench.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity TestBench
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pavel/Vhdl/VhdlLabs/Lab1/Lab1.srcs/sources_1/new/TestModule_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TestModule_2
