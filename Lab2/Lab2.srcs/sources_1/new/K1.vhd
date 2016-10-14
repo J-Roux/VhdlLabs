@@ -34,10 +34,7 @@ architecture Behavioral of K1 is
     signal SET : std_logic := '1';
     signal D : std_logic;
 begin
- 	D <= ((S0 and Q_t) xor CTR) or (S0S1 and DATA);
-	Q <= Q_t;
-	IQ <= IQ_t;
-	L <= not ((S1 and IQ_t) or (IS1 and Q_t)); 
+
 DEV : D_trigger port map (
 		clk => clk,
 		R => RESET,
@@ -47,7 +44,15 @@ DEV : D_trigger port map (
 		IQ => IQ_t
 	);  
 
-    
-
-
+    D <= ((S0 and Q_t) xor CTR) or (S0S1 and DATA);
+	L <= not ((S1 and Q_t) or (IS1 and IQ_t)); 
+--    process
+--        variable data_in : std_logic;
+--        variable ctrl_out : std_logic;
+--    begin  
+--        data_in := (( S0 and Q_t) xor CTR) or (S0S1 and DATA);
+--        D <= data_in;
+--        ctrl_out := not ((S1 and IQ_t) or (IS1 and Q_t));
+--        L <= ctrl_out; 
+--    end process;
 end Behavioral;

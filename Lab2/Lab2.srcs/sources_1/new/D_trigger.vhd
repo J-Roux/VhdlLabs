@@ -31,7 +31,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity D_trigger is
+entity DTrigger is
       Port ( 
         R : in std_logic;
         S : in std_logic;
@@ -40,24 +40,22 @@ entity D_trigger is
         Q : out std_logic;
         IQ : out std_logic
       );
-end D_trigger;
+end DTrigger;
 
-architecture Behavioral of D_trigger is
+architecture Behavioral of DTrigger is
+    
 begin
-    process(clk, D, S, R)
-        variable value : std_logic := '0';
+    process(clk, S, R)      
     begin
-        if rising_edge(clk) then
-             value := D;
+        if R = '0' then
+        Q <= '0';
+        IQ <= '1';
+        elsif S = '0' then
+        Q <= '1';
+        IQ <= '0';
+        elsif (clk'event and clk = '1') then
+            Q <= D;
+            IQ <= not D;
         end if;
-        if S = '0' then
-            value := '1';
-        end if;
-        if  R = '0' then
-            value := '0';
-        end if;
-        Q <= value;
-        IQ <= not value;
     end process;
-  
 end Behavioral;

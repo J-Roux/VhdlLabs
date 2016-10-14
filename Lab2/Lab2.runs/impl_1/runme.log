@@ -1,0 +1,21 @@
+
+*** Running vivado
+    with args -log SyncCountUD.vdi -applog -m64 -messageDb vivado.pb -mode batch -source SyncCountUD.tcl -notrace
+
+WARNING: Default location for XILINX_VIVADO_HLS not found: 
+
+****** Vivado v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source SyncCountUD.tcl -notrace
+
+*** Halting run - EA reset detected ***
+
+
+
+    while executing
+"start_step init_design"
+    (file "SyncCountUD.tcl" line 48)
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 26 20:31:27 2016...

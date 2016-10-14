@@ -1,0 +1,12 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/stargrif/VhdlLabs/Lab2/Lab2.sim/sim_2/synth/func/TestbenchSyncCountUD_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity DTrigger
+INFO: [VRFC 10-307] analyzing entity DTrigger_0
+INFO: [VRFC 10-307] analyzing entity DTrigger_1
+INFO: [VRFC 10-307] analyzing entity DTrigger_2
+INFO: [VRFC 10-307] analyzing entity DTrigger_3
+INFO: [VRFC 10-307] analyzing entity DTrigger_4
+INFO: [VRFC 10-307] analyzing entity DTrigger_5
+INFO: [VRFC 10-307] analyzing entity DTrigger_6
+INFO: [VRFC 10-307] analyzing entity SyncCountUD
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/stargrif/VhdlLabs/Lab2/Lab2.srcs/sources_1/imports/new/TestbenchSyncCountUD.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TestbenchSyncCountUD
