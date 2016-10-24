@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TestModule_SN74_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TestModule_SN74" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="6" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestModule_SN74/G1">
+      <obj_property name="ElementShortName">G1</obj_property>
+      <obj_property name="ObjectShortName">G1</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestModule_SN74/G2A">
+      <obj_property name="ElementShortName">G2A</obj_property>
+      <obj_property name="ObjectShortName">G2A</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestModule_SN74/G2B">
+      <obj_property name="ElementShortName">G2B</obj_property>
+      <obj_property name="ObjectShortName">G2B</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/TestModule_SN74/Y">
+      <obj_property name="ElementShortName">Y[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Y[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/TestModule_SN74/Y_P">
+      <obj_property name="ElementShortName">Y_P[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Y_P[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/TestModule_SN74/X">
+      <obj_property name="ElementShortName">X[2:0]</obj_property>
+      <obj_property name="ObjectShortName">X[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

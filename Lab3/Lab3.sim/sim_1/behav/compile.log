@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/stargrif/VhdlLabs/Lab3/Lab3.srcs/sources_1/imports/new/SN74.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SN74
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/stargrif/VhdlLabs/Lab3/Lab3.srcs/sim_1/imports/new/TestModule_SN74.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TestModule_SN74

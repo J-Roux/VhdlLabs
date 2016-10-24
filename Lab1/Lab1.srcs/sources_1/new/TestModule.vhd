@@ -85,9 +85,9 @@ begin
     begin
     
     file_open(file_status_input,test_file_input,
-        "/home/pavel/Vhdl/VhdlLabs/Lab1/Lab1.srcs/sim_2/imports/new/input");
+        "/home/stargrif/VhdlLabs/Lab1/Lab1.srcs/sim_2/imports/new/input");
     file_open(file_status_output,test_file_output,
-        "/home/pavel/Vhdl/VhdlLabs/Lab1/Lab1.srcs/sim_2/imports/new/output");
+        "/home/stargrif/VhdlLabs/Lab1/Lab1.srcs/sim_2/imports/new/output");
    
     while not endfile(test_file_input) loop 
         readline(test_file_input, current_line_input);

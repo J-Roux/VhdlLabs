@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TestModule_SyncCount_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TestModule_SyncCount" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestModule_SyncCount/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestModule_SyncCount/S0">
+      <obj_property name="ElementShortName">S0</obj_property>
+      <obj_property name="ObjectShortName">S0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestModule_SyncCount/S1">
+      <obj_property name="ElementShortName">S1</obj_property>
+      <obj_property name="ObjectShortName">S1</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestModule_SyncCount/ENP">
+      <obj_property name="ElementShortName">ENP</obj_property>
+      <obj_property name="ObjectShortName">ENP</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestModule_SyncCount/ENT">
+      <obj_property name="ElementShortName">ENT</obj_property>
+      <obj_property name="ObjectShortName">ENT</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/TestModule_SyncCount/IN_DATA">
+      <obj_property name="ElementShortName">IN_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">IN_DATA[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/TestModule_SyncCount/OUT_DATA">
+      <obj_property name="ElementShortName">OUT_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_DATA[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestModule_SyncCount/RCO">
+      <obj_property name="ElementShortName">RCO</obj_property>
+      <obj_property name="ObjectShortName">RCO</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,19 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2015.2/bin/unwrapped/lnx64.o/xelab -wto 65b02e9626a34ddab9c7c76d2fca3ac0 --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot TestModule_SN74_behav xil_defaultlib.TestModule_SN74 -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package std.textio
+Compiling package ieee.std_logic_textio
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.SN74 [sn74_default]
+Compiling architecture behavioral of entity xil_defaultlib.testmodule_sn74
+Built simulation snapshot TestModule_SN74_behav

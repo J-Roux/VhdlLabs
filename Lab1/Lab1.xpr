@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="5" Path="/home/pavel/Vhdl/VhdlLabs/Lab1/Lab1.xpr">
+<Project Version="7" Minor="5" Path="/home/stargrif/VhdlLabs/Lab1/Lab1.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="bd319aa0fac544c29e2bcd8efc2a70f3"/>
@@ -110,6 +110,7 @@
       </Config>
     </FileSet>
     <FileSet Name="sim_3" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_3">
+      <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sources_1/new/TestModule_2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
