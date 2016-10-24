@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D_trigger_benchmark_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="D_trigger_benchmark" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/D_trigger_benchmark/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/D_trigger_benchmark/R">
+      <obj_property name="ElementShortName">R</obj_property>
+      <obj_property name="ObjectShortName">R</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/D_trigger_benchmark/S">
+      <obj_property name="ElementShortName">S</obj_property>
+      <obj_property name="ObjectShortName">S</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/D_trigger_benchmark/D">
+      <obj_property name="ElementShortName">D</obj_property>
+      <obj_property name="ObjectShortName">D</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/D_trigger_benchmark/Q">
+      <obj_property name="ElementShortName">Q</obj_property>
+      <obj_property name="ObjectShortName">Q</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/D_trigger_benchmark/IQ">
+      <obj_property name="ElementShortName">IQ</obj_property>
+      <obj_property name="ObjectShortName">IQ</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="other" fp_name="/D_trigger_benchmark/delay">
+      <obj_property name="ElementShortName">delay</obj_property>
+      <obj_property name="ObjectShortName">delay</obj_property>
+   </wvobject>
+</wave_config>

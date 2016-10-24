@@ -1,8 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  "../../../Lab2.srcs/sources_1/new/D_trigger.vhd"
-vhdl xil_defaultlib  "../../../Lab2.srcs/sources_1/new/K1.vhd"
-vhdl xil_defaultlib  "../../../Lab2.srcs/sources_1/new/SyncCountUD.vhd"
-vhdl xil_defaultlib  "../../../Lab2.srcs/sources_1/imports/new/TestbenchSyncCountUD.vhd"
-
-# Do not sort compile order
-nosort
