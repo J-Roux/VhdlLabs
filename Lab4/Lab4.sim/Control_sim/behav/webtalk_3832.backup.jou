@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Nov 22 16:33:16 2016
+# Process ID: 2578
+# Log file: /home/stargrif/VhdlLabs/Lab4/Lab4.sim/Control_sim/behav/webtalk.log
+# Journal file: /home/stargrif/VhdlLabs/Lab4/Lab4.sim/Control_sim/behav/webtalk.jou
+#-----------------------------------------------------------
+source /home/stargrif/VhdlLabs/Lab4/Lab4.sim/Control_sim/behav/xsim.dir/TestControlDev_behav/webtalk/xsim_webtalk.tcl -notrace

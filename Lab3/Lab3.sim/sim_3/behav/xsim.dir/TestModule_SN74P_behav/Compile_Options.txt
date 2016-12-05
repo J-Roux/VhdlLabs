@@ -1,0 +1,1 @@
+-wto "65b02e9626a34ddab9c7c76d2fca3ac0" --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "TestModule_SN74P_behav" "xil_defaultlib.TestModule_SN74P" -log "elaborate.log" 

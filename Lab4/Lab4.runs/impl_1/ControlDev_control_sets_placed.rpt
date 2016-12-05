@@ -1,0 +1,58 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (lin64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Fri Nov 25 18:07:57 2016
+| Host         : KMD-NB running 64-bit Ubuntu 16.04.1 LTS
+| Command      : report_control_sets -verbose -file ControlDev_control_sets_placed.rpt
+| Design       : ControlDev
+| Device       : xc7a200t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |     5 |
+| Minimum Number of register sites lost to control set restrictions |    14 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               2 |            2 |
+| No           | No                    | Yes                    |              16 |            8 |
+| No           | Yes                   | No                     |              32 |            8 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------+---------------+----------------------------+------------------+----------------+
+|   Clock Signal   | Enable Signal |      Set/Reset Signal      | Slice Load Count | Bel Load Count |
++------------------+---------------+----------------------------+------------------+----------------+
+|  BuffOutClk_BUFG |               |                            |                1 |              1 |
+|  Div1/I12        |               |                            |                1 |              1 |
+|  BuffOutClk_BUFG |               | Div1/counter[0]_i_1_n_0    |                4 |             16 |
+|  Div2/IQ_reg_inv |               | Dev/TG/Q_reg_0             |                8 |             16 |
+|  Div1/I12        |               | Div2/counter[0]_i_1__0_n_0 |                4 |             16 |
++------------------+---------------+----------------------------+------------------+----------------+
+
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TestControlDev_func_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="TestControlDev" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestControlDev/clk_p">
+      <obj_property name="ElementShortName">clk_p</obj_property>
+      <obj_property name="ObjectShortName">clk_p</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/TestControlDev/OUT_DATA">
+      <obj_property name="ElementShortName">OUT_DATA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_DATA[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/TestControlDev/DIPSWInput">
+      <obj_property name="ElementShortName">DIPSWInput[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DIPSWInput[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/TestControlDev/PBInput">
+      <obj_property name="ElementShortName">PBInput[3:0]</obj_property>
+      <obj_property name="ObjectShortName">PBInput[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestControlDev/RCO">
+      <obj_property name="ElementShortName">RCO</obj_property>
+      <obj_property name="ObjectShortName">RCO</obj_property>
+   </wvobject>
+</wave_config>

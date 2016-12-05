@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TestShiftReg_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TestShiftReg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestShiftReg/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestShiftReg/clkEn">
+      <obj_property name="ElementShortName">clkEn</obj_property>
+      <obj_property name="ObjectShortName">clkEn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestShiftReg/data">
+      <obj_property name="ElementShortName">data</obj_property>
+      <obj_property name="ObjectShortName">data</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestShiftReg/ShL">
+      <obj_property name="ElementShortName">ShL</obj_property>
+      <obj_property name="ObjectShortName">ShL</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestShiftReg/ShR">
+      <obj_property name="ElementShortName">ShR</obj_property>
+      <obj_property name="ObjectShortName">ShR</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/TestShiftReg/set">
+      <obj_property name="ElementShortName">set</obj_property>
+      <obj_property name="ObjectShortName">set</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/TestShiftReg/OUT_DATA">
+      <obj_property name="ElementShortName">OUT_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT_DATA[7:0]</obj_property>
+   </wvobject>
+</wave_config>

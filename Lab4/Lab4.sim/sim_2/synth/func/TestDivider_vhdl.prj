@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "TestDivider_func_synth.vhd"
+vhdl xil_defaultlib  "../../../../Lab4.srcs/sources_1/imports/new/Divider.vhd"
+vhdl xil_defaultlib  "../../../../Lab4.srcs/sim_2/imports/new/TestDivider.vhd"
+
+# Do not sort compile order
+nosort

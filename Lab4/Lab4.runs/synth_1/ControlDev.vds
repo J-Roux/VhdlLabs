@@ -1,0 +1,348 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Nov 25 18:02:07 2016
+# Process ID: 4083
+# Log file: /home/stargrif/VhdlLabs/Lab4/Lab4.runs/synth_1/ControlDev.vds
+# Journal file: /home/stargrif/VhdlLabs/Lab4/Lab4.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source ControlDev.tcl -notrace
+Command: synth_design -top ControlDev -part xc7a200tfbg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 966.332 ; gain = 156.559 ; free physical = 3593 ; free virtual = 14808
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ControlDev' [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/new/ControlDev.vhd:56]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: 0 - type: bool 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-113] binding component instance 'CLK_IBUFDS' to cell 'IBUFDS' [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/new/ControlDev.vhd:133]
+INFO: [Synth 8-3491] module 'Divider' declared at '/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/Divider.vhd:27' bound to instance 'Div1' of component 'Divider' [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/new/ControlDev.vhd:141]
+INFO: [Synth 8-638] synthesizing module 'Divider' [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/Divider.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'Divider' (1#1) [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/Divider.vhd:35]
+INFO: [Synth 8-3491] module 'Divider' declared at '/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/Divider.vhd:27' bound to instance 'Div2' of component 'Divider' [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/new/ControlDev.vhd:146]
+INFO: [Synth 8-3491] module 'SyncCountUD' declared at '/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/SyncCountUD.vhd:34' bound to instance 'Dev' of component 'SyncCountUD' [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/new/ControlDev.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'SyncCountUD' [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/SyncCountUD.vhd:61]
+INFO: [Synth 8-3491] module 'DTrigger' declared at '/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/D_trigger.vhd:34' bound to instance 'TA' of component 'DTrigger' [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/SyncCountUD.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'DTrigger' [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/D_trigger.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'DTrigger' (2#1) [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/D_trigger.vhd:45]
+INFO: [Synth 8-3491] module 'DTrigger' declared at '/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/D_trigger.vhd:34' bound to instance 'TB' of component 'DTrigger' [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/SyncCountUD.vhd:169]
+INFO: [Synth 8-3491] module 'DTrigger' declared at '/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/D_trigger.vhd:34' bound to instance 'TC' of component 'DTrigger' [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/SyncCountUD.vhd:186]
+INFO: [Synth 8-3491] module 'DTrigger' declared at '/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/D_trigger.vhd:34' bound to instance 'TD' of component 'DTrigger' [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/SyncCountUD.vhd:203]
+INFO: [Synth 8-3491] module 'DTrigger' declared at '/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/D_trigger.vhd:34' bound to instance 'TE' of component 'DTrigger' [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/SyncCountUD.vhd:220]
+INFO: [Synth 8-3491] module 'DTrigger' declared at '/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/D_trigger.vhd:34' bound to instance 'TF' of component 'DTrigger' [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/SyncCountUD.vhd:237]
+INFO: [Synth 8-3491] module 'DTrigger' declared at '/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/D_trigger.vhd:34' bound to instance 'TG' of component 'DTrigger' [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/SyncCountUD.vhd:255]
+INFO: [Synth 8-3491] module 'DTrigger' declared at '/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/D_trigger.vhd:34' bound to instance 'TH' of component 'DTrigger' [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/SyncCountUD.vhd:273]
+INFO: [Synth 8-256] done synthesizing module 'SyncCountUD' (3#1) [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/imports/new/SyncCountUD.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'ControlDev' (4#1) [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/sources_1/new/ControlDev.vhd:56]
+WARNING: [Synth 8-3331] design ControlDev has unconnected port PushButtonSW3
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1002.613 ; gain = 192.840 ; free physical = 3555 ; free virtual = 14770
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1002.613 ; gain = 192.840 ; free physical = 3555 ; free virtual = 14770
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc]
+WARNING: [Vivado 12-584] No ports matched 'LED0'. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED1'. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED2'. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED3'. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED0'. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED1'. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED2'. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED3'. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_RCO'. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_RCO'. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_SWAP'. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LED_SWAP'. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/stargrif/VhdlLabs/Lab4/Lab4.srcs/constrs_1/imports/new/CommonConstr.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1337.270 ; gain = 0.000 ; free physical = 3349 ; free virtual = 14564
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3348 ; free virtual = 14563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3348 ; free virtual = 14563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3348 ; free virtual = 14563
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3335 ; free virtual = 14550
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 8     
++---Registers : 
+	                1 Bit    Registers := 18    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DTrigger 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module SyncCountUD 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 8     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3335 ; free virtual = 14550
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design ControlDev has unconnected port PushButtonSW3
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3332 ; free virtual = 14547
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3332 ; free virtual = 14547
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3319 ; free virtual = 14534
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3319 ; free virtual = 14534
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3319 ; free virtual = 14534
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3284 ; free virtual = 14499
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3283 ; free virtual = 14499
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3266 ; free virtual = 14481
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5365] Flop Dev/TH/IQ_reg is being inverted and renamed to Dev/TH/IQ_reg_inv.
+INFO: [Synth 8-5365] Flop Dev/TG/IQ_reg is being inverted and renamed to Dev/TG/IQ_reg_inv.
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3266 ; free virtual = 14481
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3266 ; free virtual = 14481
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3266 ; free virtual = 14481
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3266 ; free virtual = 14481
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3266 ; free virtual = 14481
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    16|
+|3     |LUT1   |    68|
+|4     |LUT2   |     5|
+|5     |LUT3   |     7|
+|6     |LUT4   |     7|
+|7     |LUT5   |    13|
+|8     |LUT6   |    17|
+|9     |FDCE   |    10|
+|10    |FDPE   |     6|
+|11    |FDRE   |    34|
+|12    |IBUF   |     8|
+|13    |IBUFDS |     1|
+|14    |OBUF   |     8|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+------------+------+
+|      |Instance |Module      |Cells |
++------+---------+------------+------+
+|1     |top      |            |   201|
+|2     |  Dev    |SyncCountUD |    49|
+|3     |    TA   |DTrigger    |     7|
+|4     |    TB   |DTrigger_1  |    10|
+|5     |    TC   |DTrigger_2  |     5|
+|6     |    TD   |DTrigger_3  |     7|
+|7     |    TE   |DTrigger_4  |     8|
+|8     |    TF   |DTrigger_5  |     5|
+|9     |    TG   |DTrigger_6  |     4|
+|10    |    TH   |DTrigger_7  |     3|
+|11    |  Div1   |Divider     |    67|
+|12    |  Div2   |Divider_0   |    67|
++------+---------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3266 ; free virtual = 14481
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1337.270 ; gain = 74.281 ; free physical = 3266 ; free virtual = 14481
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1337.270 ; gain = 527.496 ; free physical = 3266 ; free virtual = 14481
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 25 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+35 Infos, 14 Warnings, 12 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1337.270 ; gain = 416.941 ; free physical = 3266 ; free virtual = 14481
+report_utilization: Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.20 . Memory (MB): peak = 1369.285 ; gain = 0.000 ; free physical = 3264 ; free virtual = 14479
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 25 18:02:36 2016...

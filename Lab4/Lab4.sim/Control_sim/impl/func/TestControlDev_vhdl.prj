@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "TestControlDev_func_impl.vhd"
+vhdl xil_defaultlib  "../../../../Lab4.srcs/sources_1/imports/new/D_trigger.vhd"
+vhdl xil_defaultlib  "../../../../Lab4.srcs/sources_1/imports/new/SyncCountUD.vhd"
+vhdl xil_defaultlib  "../../../../Lab4.srcs/sources_1/new/ShiftReg.vhd"
+vhdl xil_defaultlib  "../../../../Lab4.srcs/sources_1/imports/new/Divider.vhd"
+vhdl xil_defaultlib  "../../../../Lab4.srcs/sources_1/new/ControlLEDs.vhd"
+vhdl xil_defaultlib  "../../../../Lab4.srcs/sources_1/new/ControlDev.vhd"
+vhdl xil_defaultlib  "../../../../Lab4.srcs/Control_sim/imports/new/TestControlDev.vhd"
+
+# Do not sort compile order
+nosort
